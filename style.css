@@ -1,0 +1,131 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2em 1em;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    z-index: 99;
+    top:0;
+    background: white;
+  }
+  nav{
+    display: grid;
+    gap: 2px;
+    cursor: pointer;
+   
+  }
+  nav div{
+    background-color: rgba(21, 0, 70, 0.885);
+    height: 2px;
+    width: 30px;
+    border-radius: 80px;
+  }
+  /* INTRO IMG designs */
+  .introimg{
+    position: relative;
+    height: 60vh;
+    overflow: hidden;
+    display: flow-root;
+  }
+  .alignintro1 , .alignintro2{
+    height: 100%;
+    width: auto;
+    position: absolute;
+   
+  }
+  .alignintro1{
+    z-index: 1;
+    top: -10%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .alignintro2{
+    z-index: 2;
+    top: -35%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  /* articles */
+  article{
+    padding: 2em;
+    
+  }
+  article h1{
+    color: rgba(1, 1, 39, 0.905);
+    font-weight: 500;
+    font-size: 25px;
+
+  }
+  article p{
+    opacity: .7;
+  }
+  .ashbg{
+background: rgb(238, 237, 237);
+  }
+  .sub-container{
+    padding: 1.5em;
+  }
+  .sub-container sub{
+    display: block;
+    text-align: start !important;
+    opacity: .8;
+
+  }
+  .sub-container p{
+    text-align: justify;
+  }
+  .head-text{
+    margin-top: 3em;
+    color: rgba(1, 1, 39, 0.905);
+    font-size: 32px;
+    font-weight: normal !important;
+
+  }
+  img:not(.ashbg img, .logo){
+    height: auto;
+    width: 100%;
+  }
+  footer{
+    background-color: hsl(233, 26%, 24%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 3em;
+  }
+  a{
+    text-decoration: none;
+
+  }
+  footer a {
+      color:white;
+      opacity: .8;
+      font-size: 20px;
+
+      font-weight: normal;
+  }
+  .iconss{
+  display: flex;
+  gap: 1em;
+  padding: 2em 0em;
+  width: 60%;
+  }
+
+  .logo{
+    width:200px;
+  }
+
+  /* link design */
+
+  .link-design{
+      padding: 1em 2em;
+      background:linear-gradient( to right, hsl(136, 65%, 51%) ,  hsl(192, 70%, 51%));
+      font-weight: bolder;
+      border-radius: 50px;
+      margin: 2rem 0rem;
+      color: white;
+  }
